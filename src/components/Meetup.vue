@@ -21,7 +21,7 @@
           </span>
         </div>
         <div class="extra">
-          <i class="thumbs up icon"></i> {{ (meetup.attendees && meetup.attendees.length <= 1)
+          <i class="thumbs up icon"></i> {{ meetup.attendees && meetup.attendees.length &lt;1
           ? `${meetup.attendees.length} attendee going`
           : `${meetup.attendees.length} attendees going` }}
         </div>
